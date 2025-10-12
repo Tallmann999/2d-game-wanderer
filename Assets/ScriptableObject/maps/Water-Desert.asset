@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034ccc65ae739704cb644bca35f5cede, type: 3}
+  m_Name: Water-Desert
+  m_EditorClassIdentifier: 
+  _sprites:
+  - {fileID: -175123559, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -2130453985, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 811614135, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -840435390, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 137539732, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -1599328808, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -382704399, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -1987510021, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 1427593415, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 531355025, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -723882497, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 487536081, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -369153609, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -268460067, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 196109017, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 982159620, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 1070015216, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 357679466, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -1240087328, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 145719244, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 1101538476, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 1548304855, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -782284618, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: -1880368613, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 1674120854, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 2057183444, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  - {fileID: 1492222715, guid: b683360873b7b0f4ab226f6913aedf8a, type: 3}
+  _type: 3
+  _actions: 0300000004000000

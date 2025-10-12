@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bf90f3cfaa0f94b8e60154092c3747, type: 3}
+  m_Name: Medal
+  m_EditorClassIdentifier: 
+  Id: 0007
+  ItemName: Medal
+  Icon: {fileID: -6379548132531528638, guid: 58bffae05a7ca7e4691ab214d3817ac2, type: 3}
+  Type: 3
+  Rarity: 4
+  Stackable: 0
+  MaxStack: 1
+  Price: 1000
+  Weight: 0.01
+  CollectionName: MedalOfHonor
