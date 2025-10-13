@@ -7,6 +7,6 @@ public enum TileActionType
     CollectResources,
     Hunt,
     AttackToEnemy,
-    SeacherRuins,
+    TreasureSearchtrie,
     Tride
 }

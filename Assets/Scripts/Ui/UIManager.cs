@@ -3,6 +3,7 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject _fishingWindow;
+    [SerializeField] private GameObject _treasureSearchtrieWindow;
     [SerializeField] private GameObject _huntingWindow;
     [SerializeField] private GameObject _miningWindow;
     [SerializeField] private PlayerController _player;
@@ -19,6 +20,10 @@ public class UIManager : MonoBehaviour
             case TileActionType.Fish:
                 _fishingWindow.SetActive(true);
                 _currentWindow = _fishingWindow;
+                break;
+            case TileActionType.TreasureSearchtrie:
+                _treasureSearchtrieWindow.SetActive(true);
+                _currentWindow = _treasureSearchtrieWindow;
                 break;
             case TileActionType.Hunt:
                 _huntingWindow.SetActive(true);
@@ -38,6 +43,7 @@ public class UIManager : MonoBehaviour
         _fishingWindow.SetActive(false);
         _huntingWindow.SetActive(false);
         _miningWindow.SetActive(false);
+        _treasureSearchtrieWindow.SetActive(false);
         _currentWindow = null;
 
         _player.SetState(PlayerState.Exploration);

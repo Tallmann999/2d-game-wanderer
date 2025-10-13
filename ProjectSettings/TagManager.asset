@@ -13,7 +13,7 @@ TagManager:
   - UI
   - Player
   - Ground
-  - 
+  - Items
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2184830179
+    locked: 0
+  - name: TreasureSearch
+    uniqueID: 2724242787
     locked: 0
   m_RenderingLayers:
   - Default
