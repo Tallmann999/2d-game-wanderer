@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TreasureSearchController : MonoBehaviour
 {
-    [SerializeField] private Inventory _playerInventory;
+    //[SerializeField] private Inventory _playerInventory;
 
     [Header("UI Elements")]
     [SerializeField] private RawImage _maskImage;

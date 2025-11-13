@@ -6,11 +6,11 @@ public class InteractionDetector : MonoBehaviour
 {
     [SerializeField] private TilemapReader _tilemapReader;
     [SerializeField] private TileActionUI _tileActionUI;
-    [SerializeField] private GameObject _inventoryWindow;
+    //[SerializeField] private GameObject _inventoryWindow;
 
     private void Awake()
     {
-        _inventoryWindow.SetActive(false);
+        //_inventoryWindow.SetActive(false);
     }
 
     private void Update()
@@ -26,15 +26,15 @@ public class InteractionDetector : MonoBehaviour
                 return;
         }
 
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            _inventoryWindow.SetActive(true);
-        }
-        else if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            _inventoryWindow.SetActive(false);
+        //if (Input.GetKeyDown(KeyCode.I))
+        //{
+        //    _inventoryWindow.SetActive(true);
+        //}
+        //else if(Input.GetKeyDown(KeyCode.Escape))
+        //{
+        //    _inventoryWindow.SetActive(false);
 
-        }
+        //}
     }
 }
 
